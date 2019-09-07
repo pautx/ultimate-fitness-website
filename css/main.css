@@ -1,0 +1,299 @@
+body {
+  background-image: url("../images/background.png");
+  color: #e6e6e6;
+  margin: auto;
+  width: 1024px;
+  height: 100%;
+	font-family: Arial, san-serif;
+}
+
+#top {
+  background-color: black;
+  height: 155px;
+  display: block;
+}
+
+#top h1 {
+  color: white;
+  font-size: 22px;
+  text-align: right;
+  padding: 15px 25px 0px 0px;
+  margin: 0px;
+}
+
+#top a:hover {
+	font-size: 38px;
+}
+
+#left {
+  float: left;
+}
+
+#deal {
+  float: right;
+  margin-right: 20px;
+}
+
+#deal:hover {
+  filter: brightness(1.2);
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+nav {
+  float: left;
+  border: 1px solid black;
+  margin: 0px 25px 0px 0px;
+  background: linear-gradient(to right, #181818, #2f2f2f, #181818);
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+}
+
+nav li a{
+  border-bottom: 2px solid black;
+  display: block;
+  width: 200px;
+  padding: 10px 10px;
+}
+
+a:link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:link {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:link {
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  background-color: #606060;
+}
+
+a:visited {
+  color: white;
+}
+
+ol {
+  text-decoration: underline;
+}
+
+aside {
+    float: left;
+    width: 220px;
+    height: 100%;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: #3d3d3d;
+    padding: 0;
+    margin: 0;
+    clear: left;
+}
+
+#pageheight1 {
+  height: 460px;
+}
+
+#pageheight2 {
+  height: 460px;
+}
+
+#pageheight3 {
+  height: 580px;
+}
+
+#pageheight4 {
+  height: 1100px;
+}
+
+#pageheight5 {
+  height: 350px;
+}
+
+#pageheight6 {
+  height: 1050px;
+}
+
+#pageheight7 {
+  height: 240px;
+}
+
+#pageheight8 {
+  height: 50px;
+}
+
+#pageheight9 {
+  height: 530px;
+}
+
+#pageheight10 {
+  height: 540px;
+}
+
+section {
+  background-color: #12345a;
+  overflow: hidden;
+  position: static;
+  height: 100%;
+}
+
+section h1 {
+  margin-left: 250px;
+  margin-bottom: 0px;
+}
+
+section h2, section p {
+  margin-right: 25px;
+  margin-left: 250px;
+  margin-top: 5px;
+}
+
+section p {
+  line-height: 1.4;
+	padding-bottom: 10px;
+}
+
+section img {
+  height: 225px;
+  width: 225px;
+  border: 3px solid black;
+  margin-right: 10px;
+}
+
+.list {
+  padding: 0px;
+  list-style-type: none;
+  margin-left: 210px;
+}
+
+.list2 {
+  padding: 0px 2px 8px 0px;
+  margin-left: 230px;
+}
+
+.list3 {
+  padding: 10px 10px;
+  margin-left: 230px;
+}
+
+#table1 {
+  margin-left: 300px;
+}
+
+#table2 {
+  border-collapse: collapse;
+  margin: 15px;
+  border: black solid 2px;
+}
+
+.table2 {
+  border: black solid 2px;
+  padding: 3px;
+  vertical-align: top;
+}
+
+#table3 {
+  border-collapse: collapse;
+  margin: 15px;
+  border: black solid 2px;
+}
+
+.table3 {
+  border: black solid 2px;
+  padding: 3px;
+  vertical-align: top;
+  width: 300px;
+}
+
+#table4 {
+  border-collapse: collapse;
+  border: black solid 2px;
+  margin: 15px;
+}
+
+.table4 {
+  padding: 3px;
+  vertical-align: top;
+  border: black solid 2px;
+  width: 100px;
+}
+
+.table4 a {
+    word-break: break-all;
+    text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.darken {
+  background-color: #404040;
+}
+
+.boldarken {
+  font-weight: bold;
+  background-color: #404040;
+}
+
+.black {
+  background-color: black;
+  padding: 25px;
+}
+
+.right {
+  float: right;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+#personal-trainer {
+  height: 200px;
+  width: 360px;
+}
+
+.vip {
+  height: 150px;
+  width: 300px;
+  border: 3px dashed black;
+}
+
+#vip {
+  padding-left: 250px;
+  padding-top: 10px;
+}
+
+hr {
+	border-color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  margin: 0px;
+  text-align: center;
+  background-color: #0c0c0c;
+  padding: 5px 0px 5px 0px;
+  overflow: hidden;
+}
